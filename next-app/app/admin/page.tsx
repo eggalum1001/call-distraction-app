@@ -16,7 +16,7 @@ export default function AdminPanel() {
                         const [loading, setLoading] = useState(true);
 
                          
-                           const ADMIN_EMAIL = 'ralphbrown553@gmail.com;
+                           const ADMIN_EMAIL = 'ralphbrown553@gmail.com';
 
                              useEffect(() => {
                                  supabase.auth.getUser().then(({ data: { user } }) => {
